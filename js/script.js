@@ -421,8 +421,8 @@ document.addEventListener("DOMContentLoaded", initFloatingFlowers);
   }
 
   // name 1 starts at 1.9 s, name 2 starts at 3.4 s
-  buildLetters("gateName1", "Rubeeh Umer Muhammed", 1.9);
-  buildLetters("gateName2", "Neenu KP", 3.4);
+  buildLetters("gateName1", "Rubeeh", 1.9);
+  buildLetters("gateName2", "Neenu", 3.4);
 
   // After all letters have landed, add the subtle heartbeat glow
   var namesEl = document.querySelector(".gate__names");

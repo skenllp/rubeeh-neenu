@@ -1605,3 +1605,37 @@ a:focus-visible, button:focus-visible{
 body.locked .mute-btn{ background: rgba(78,71,63,.55); border-color: #DCD0BC; color: #EFE6D6; }
 body.locked .floating-flowers{ filter: grayscale(1) sepia(.25) brightness(1.15); }
 body.locked .scroll-progress{ opacity: 0; }
+
+/* ============================================================
+   GET DIRECTIONS BUTTON — styled for celebration cards
+   ============================================================ */
+.celebration-card__directions {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gold);
+  background: transparent;
+  border: 1.5px solid var(--gold);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s var(--ease);
+  cursor: pointer;
+}
+
+.celebration-card__directions:hover {
+  background: var(--gold);
+  color: var(--paper);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(169, 129, 47, 0.25);
+}
+
+.celebration-card__venue {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin: 0.75rem 0 0 0;
+}
