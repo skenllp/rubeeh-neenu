@@ -71,8 +71,8 @@
   }
 
   /* ---------- Countdown timer ---------- */
-  // Nikkah: 24 December 2026, 11:00 AM
-  var WEDDING_DATE = new Date("2026-12-24T11:00:00");
+  // Marriage Reception: 25 December 2026, 5:00 PM
+  var WEDDING_DATE = new Date("2026-12-25T17:00:00");
 
   var elDays = document.getElementById("cd-days");
   var elHours = document.getElementById("cd-hours");
